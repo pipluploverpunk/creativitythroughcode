@@ -1,0 +1,55 @@
+<head>
+  <title>creativitythroughcode</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:300' rel='stylesheet' type='text/css'>
+</head>
+<template name="hello">
+  <button>Click Me</button>
+  <p>You've pressed the button {{counter}} times.</p>
+</template>
+
+<template name="about">
+         <body style="font-family: 'Roboto', sans-serif;">
+            <div class="top">
+                <h1>Welcome to the website</h1>
+                <img class="img-responsive" src="cool_dog.jpg">
+                <div style="border-style: solid; width: 33%; float: left; font-family: 'Roboto', sans-serif;">
+
+                <p>Check out the features</p> {{> loginButtons}}
+                </div>
+            <img src="http://i.imgur.com/k1yVI.jpg" height="200px" width="200px" style = "border-radius:200px">
+            </div>
+            <div style="border-style:solid; background-color:red" class = "col-md-4">
+                 <h1 style = "text-align:center">Cool club</h1>
+            </div>
+            <div class="col-md-4 col-sm-6">
+                <p>Very Cool</p> 
+            </div>
+            <div style="Border-style:solid; border-color:yellow; background-color:orange" class = "col-md-4 col-sm-6">
+                    <a href = "https://www.google.ca/search?q=mixtape&rlz=1C1AFAB_enCA460CA462&oq=mixtape&aqs=chrome..69i57j0l5.1027j0j7&sourceid=chrome&es_sm=93&ie=UTF-8"><h1>CHECK OUT THE MIXTAPE</h1></a>
+            </div>
+             
+
+    </body>
+
+</template>
+
+<template name="login">
+
+</template>
+
+<template name="gallery">
+    {{> about}}
+</template>
+<template name="contact">
+
+<div class="col-md-3">
+<form>
+    
+    <input type="text" class="form-control" placeholder="name" name="name">
+    <input type="email" class="form-control" placeholder="email" name="email">
+    <textarea class="form-control" rows="6" placeholder="message" name="message"></textarea>
+    <button type="submit" class="btn">Submit</button>
+    
+    </form>
+    </div>
+</template>
