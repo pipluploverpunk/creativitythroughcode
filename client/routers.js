@@ -10,3 +10,7 @@ Router.route('/contact',{
     template: 'contact',
     title: 'creativitythroughcode - contact'
 });
+Router.route('/converter',{
+    template: 'currencyConverter',
+    title: 'creativitythroughcode - CurrencyConverter'
+});
