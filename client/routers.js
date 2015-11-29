@@ -11,6 +11,14 @@ Router.route('/contact',{
     title: 'creativitythroughcode - contact'
 });
 Router.route('/converter',{
-    template: 'currencyConverter',
+    template: 'converter',
     title: 'creativitythroughcode - CurrencyConverter'
+});
+Router.route('/math',{
+    template: 'math',
+    title: 'creativitythroughcode - Math'
+});
+Router.route('/login',{
+    template: 'logIn',
+    title: 'creativethrough - Login'
 });

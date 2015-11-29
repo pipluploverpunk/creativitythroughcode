@@ -18,3 +18,26 @@ body{
 .top div{
     border-style: solid;
 }
+
+.loginPanel{
+    border-bottom-style:solid;
+    border-color:black;
+    border-width:1px;
+    border-bottom-width:2px;
+    
+    
+}
+
+@media(min-width: 700px){
+    .loginPanel{
+        margin-top: 100px;
+    }
+}
+@media and screen (min-width: 700px){
+    .loginPanel{
+        margin-top: 100px;
+    }
+    #login-email-label{
+        text-transform: uppercase;
+    }
+}
