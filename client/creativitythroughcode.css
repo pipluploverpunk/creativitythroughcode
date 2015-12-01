@@ -24,20 +24,49 @@ body{
     border-color:black;
     border-width:1px;
     border-bottom-width:2px;
-    
-    
+    border-radius:15px;
+    background-color: pink;
+}
+
+#login-email-label, #login-password-label{
+    text-transform: uppercase;
 }
 
 @media(min-width: 700px){
     .loginPanel{
         margin-top: 100px;
+        padding-top: 50px;
     }
 }
+
 @media and screen (min-width: 700px){
     .loginPanel{
         margin-top: 100px;
     }
-    #login-email-label{
-        text-transform: uppercase;
-    }
 }
+#login-email-label, #login-password-label{
+        font-size: 20px;
+        font-weight:600;
+        margin-left: 33%;
+    }
+#login-email-label{
+        margin-left: 33%;
+    }
+#login-password-label{
+        margin-left: 24%;
+    }
+.login-link-text, .login-close-text{
+    display:none;
+    }
+#login-password, #login-email{
+    padding: 8px;
+    border-radius: 6px;
+    }
+.loginbutton{
+        color:white;
+        background-color: #f0ad4e;
+        line-height: 2.5;
+        font-size: 18px;
+        text-align:center;
+    }
+
