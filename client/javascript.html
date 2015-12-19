@@ -1,0 +1,46 @@
+<template name="javascript">
+<h1>{{printname name="george"}}</h1>
+    <script>
+    var x = 20; //integer
+    var y = "hello"; //string
+    var z = "true"; //boolean
+    var str = 1.222; //float
+    var c = "c"; //character
+    var s = []; //array
+    var printed = x/4;
+    
+    console.log(20/4);
+    
+    if(x===20){
+        console.log('x is 20');
+    }
+    else if(x/4 === 5)
+        console.log('x is cool');
+    else{
+        console.log('x is not 20');
+    }
+    for(var i = 0, j = 0; i < 20; i++, j+= 2) {
+        console.log(i, j);
+    }
+    var counter = 0;
+    while(counter < 20){
+        console.log('My name is Matt');
+        counter++;
+    }
+    
+    var mulitplybytwo = function(numbertobemultipliedbytwo){
+        return numbertobemultipliedbytwo*2;
+    }
+      var arrayMultiplied = [2, 5, 9];
+      var multiplyallbytwo = function(listofnumbers){
+          var returnedlist = [listofnumbers.length];
+          for(i=0; i< listofnumbers.length; i++){
+              returnedlist[i] = listofnumbers [i]*2;
+          }
+          return returnedlist;
+      }
+    
+      
+      console.log(multiplyallbytwo(arrayMultiplied));
+    </script>
+</template>

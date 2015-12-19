@@ -61,6 +61,14 @@ Meteor.myFunctions={
     } 
 }
 
+<<<<<<< HEAD
+Template.javascript.helpers({
+  printname:function(name){
+    return String(name);
+  }    
+});
+=======
+>>>>>>> 6572f31ac072e1592986d66ea86ff324b82aca2e
 Template.loginButtons.rendered = function()
 {
     Accounts._loginButtonsSession.set('dropdownVisible', true);

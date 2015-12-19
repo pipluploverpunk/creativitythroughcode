@@ -44,11 +44,14 @@
     </body>
 
 </template>
+<<<<<<< HEAD
+=======
 
 <template name="login">
 
 </template>
 
+>>>>>>> 6572f31ac072e1592986d66ea86ff324b82aca2e
 <template name="gallery">
     {{> about}}
 </template>
@@ -115,15 +118,27 @@
     </form>
     
     <h1> {{returnExchanged}}</h1>
+<<<<<<< HEAD
+    {{> comments}}
+=======
+>>>>>>> 6572f31ac072e1592986d66ea86ff324b82aca2e
         </template>
 <template name = "math">
 
 </template>
 
+<<<<<<< HEAD
+<template name= "login">
+<style>
+    body{
+        border-style: none;
+        font-family: 'Comic Sans MS', sans-serif;
+=======
 <template name= "logIn">
 <style>
     body{
         border-style: none;
+>>>>>>> 6572f31ac072e1592986d66ea86ff324b82aca2e
     }
 </style>
 <div class="row">
@@ -135,4 +150,24 @@
     </div>
     </div>
     </div>
+<<<<<<< HEAD
+</template>
+<template name='comments'>
+{{#each comments}}
+    <h5 style="color: {{commentColor}}; font-family: Comic Sans MS" id=
+comment
+>{{postedcomment}}</h5>
+    <h6>{{formatDate datesubmitted}}</h6>
+{{/each}}
+    <form class = "new-comment">
+    <p>Comment Here</p>
+        <input type="text" name="comment" placeholder = "Comment" style="font-family: Comic Sans MS">
+        <input type="text" name="colorselected" placeholder="Enter a color for your comment" style="font-family: Comic Sans MS">
+        <input type="text" name="fontsize" placeholder="Enter a font size">
+        <button type="submit" id="submitcomment">
+    Submit    </button>
+    </form>
+<button id="deletecomment">Delete Comment</button>
+=======
+>>>>>>> 6572f31ac072e1592986d66ea86ff324b82aca2e
 </template>
